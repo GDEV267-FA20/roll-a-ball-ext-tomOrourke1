@@ -11,11 +11,8 @@ public class Movement : MonoBehaviour
     public float speed = 10;
 
     private Rigidbody rb;
-
-
     private float movementX;
     private float movementY;
-
 
     private ScoreScript scoreScript ;
 
@@ -23,7 +20,6 @@ public class Movement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         scoreScript = GetComponent<ScoreScript>();
-
     }
 
 
@@ -50,7 +46,6 @@ public class Movement : MonoBehaviour
             scoreScript.Count(1);
         }
     }
-
 
 
 

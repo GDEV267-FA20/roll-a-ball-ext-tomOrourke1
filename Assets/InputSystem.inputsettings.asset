@@ -14,10 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SupportedDevices:
   - Keyboard
-<<<<<<< HEAD
-=======
   - Mouse
->>>>>>> 49fd7176aff1edddf711caeda4fbd75140360f8f
   m_UpdateMode: 1
   m_CompensateForScreenOrientation: 1
   m_FilterNoiseOnCurrent: 0
