@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     public float speed = 10;
 
     private Rigidbody rb;
+<<<<<<< HEAD
 
     private float movementX;
     private float movementY;
@@ -18,6 +19,17 @@ public class Movement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+=======
+    private float movementX;
+    private float movementY;
+
+    private ScoreScript scoreScript ;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+        scoreScript = GetComponent<ScoreScript>();
+>>>>>>> 49fd7176aff1edddf711caeda4fbd75140360f8f
     }
 
 
@@ -36,5 +48,19 @@ public class Movement : MonoBehaviour
         rb.AddForce(movement * speed);
     }
 
+<<<<<<< HEAD
+=======
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("PickUp"))
+        {
+            other.gameObject.SetActive(false);
+            scoreScript.Count(1);
+        }
+    }
+
+
+
+>>>>>>> 49fd7176aff1edddf711caeda4fbd75140360f8f
 
 }
