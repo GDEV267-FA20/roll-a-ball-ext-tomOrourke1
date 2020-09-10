@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 570412138}
   - component: {fileID: 570412137}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1382,7 +1382,7 @@ GameObject:
   - component: {fileID: 1562936465}
   - component: {fileID: 1562936466}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
